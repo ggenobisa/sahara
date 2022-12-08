@@ -11,9 +11,10 @@
 }/****1366px****/
 
 @media screen and (max-width:1024px) {
+    .hero {background: url('../img/banner-desktop.jpg') 73% center/cover no-repeat;}
     .hero .offer-text {left: unset;}
     .hero .offer-text h2 {font-size: 45px;}
-    .hero .offer-text h1 {font-size: 65px;}
+    .hero .offer-text h1 {font-size: 55px;}
     .howtoplay .howtoplay-steps {grid-template-columns: 1fr;}
     .howtoplay .howtoplay-steps .col {margin-bottom: 25px;justify-content: flex-start;}
     .genting-live .genting-container .col img {width: 95%;}
