@@ -1,6 +1,26 @@
 .hide-desktop {display: none;}
 
 /*--------------RESPONSIVE CSS ----------------*/
+@media screen and (max-width:1366px) {
+    .hero .offer-text h1 {font-size: 70px;}
+    .hero .offer-text h2 {font-size: 50px;}
+    .hero .offer-text {left: 10%;}
+    .genting-live .genting-container {column-gap: 0;}
+    .genting-live .genting-container .col img {width: 90%;}
+    .genting-casino .genting-container p {padding: 0;}
+}/****1366px****/
+
+@media screen and (max-width:1024px) {
+    .hero .offer-text {left: unset;}
+    .hero .offer-text h2 {font-size: 45px;}
+    .hero .offer-text h1 {font-size: 65px;}
+    .howtoplay .howtoplay-steps {grid-template-columns: 1fr;}
+    .howtoplay .howtoplay-steps .col {margin-bottom: 25px;justify-content: flex-start;}
+    .genting-live .genting-container .col img {width: 95%;}
+    .genting-casino .genting-container {grid-template-columns: 1fr 1fr; row-gap: 50px;}
+    .genting-casino .genting-container p {padding: 0 2rem;}
+}/****1024px****/
+
 @media screen and (max-width:940px) {
     .hide-mobile {display: none !important;}
     .hide-desktop {display: block;}
