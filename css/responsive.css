@@ -87,6 +87,13 @@
 
 @media screen and (max-width:768px) {
     .hero {background: url('../img/mobile/banner-m.jpg') center top/cover no-repeat;}
+    .hero .offer-text h2 {font-size: 40px;}
+    .hero .offer-text h1 {font-size: 45px;}
+    .howtoplay .howtoplay-steps .col {width: 50%;}
+    .genting-live .content-two {margin-top: 0;}
+    .genting-casino .genting-container {grid-template-columns: 1fr 1fr;}
+    .genting-casino .genting-container img {width: auto;}
+    .genting-casino .genting-container p {font-size: 22px;}
 }/****768px****/
 
 @media screen and (max-width:414px) {
