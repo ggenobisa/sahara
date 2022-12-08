@@ -96,7 +96,7 @@
 @media screen and (max-width:768px) {
     .hero {background: url('../img/mobile/banner-m.jpg') center top/cover no-repeat;}
     .hero .offer-text {bottom: 10%;}
-    .hero .offer-text h2 {font-size: 65px;}
+    .hero .offer-text h2 {font-size: 55px;}
     .hero .offer-text h1 {font-size: 45px;}
     .howtoplay .howtoplay-steps .col {width: 50%;}
     .genting-live .content-two {margin-top: 0;}
