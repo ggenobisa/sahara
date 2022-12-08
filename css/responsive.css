@@ -37,8 +37,8 @@
     .hero .logo {top: 8%;left: 0;right: 0;}
     .hero .logo img {width: 280px;}
     .hero .offer-text {top: unset;left: 0;right: 0;bottom: 18%;}
-    .hero .offer-text h2 {font-size: 24px;font-weight: 400;}
-    .hero .offer-text h1 {font-size: 36px;}
+    .hero .offer-text h2 {font-size: 45px;}
+    .hero .offer-text h1 {font-size: 30px;}
     .hero .offer-text button {width: 153px;height: 42px; font-size: 18px;}
     .hero .content .hero-btn .beam-content {grid-template-columns: 1fr;}
     .hero .content .hero-btn .beam-content .col-2 {display: none;}
@@ -105,17 +105,18 @@
 }/****768px****/
 
 @media screen and (max-width:414px) {
-    .hero .offer-text {bottom: 25%;}
+    .hero .offer-text {bottom: 18%;}
     .howtoplay .howtoplay-steps .col {width: 100%;}
     .genting-casino .genting-container {grid-template-columns: 1fr;}
 }/****414px****/
 
 @media screen and (max-width:390px) {
     .hero .offer-text {bottom: 22%;}
+    .hero .offer-text h2 {font-size: 40px;}
+    .hero .offer-text h1 {font-size: 25px;}
 }/****390px****/
 
 @media screen and (max-width:375px) {
     .hero .logo {top: 10%;}
     .hero .logo img {width: 200px;}
-    .hero .offer-text {bottom: 25%;}
 }/****375px****/
