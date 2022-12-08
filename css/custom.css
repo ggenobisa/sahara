@@ -1,0 +1,71 @@
+.hero {background: url('../img/banner-desktop.jpg') center center/cover no-repeat; height: 100vh; width: 100%; position: relative;}
+.hero .content {color: var(--plain);}
+.hero .logo {position: absolute;top: 5%;}
+.hero .offer-text {position: absolute;top: 25%;left: 12%;}
+.hero .offer-text h1,
+.hero .offer-text h2 {color: var(--secondary);}
+.hero .offer-text button {background-color: var(--button);border: none;border-radius: 4px;width: 290px;height: 80px;margin-top: 40px;font-weight: 700;font-size: 36px;color: var(--secondary);}
+.hero .offer-text h2 {font-weight: 300;font-size: 55px;}
+.hero .offer-text h1 {font-weight: 900;font-size: 80px;}
+.hero .content .hero-btn {position: absolute;bottom: 0;left: 0;right: 0;}
+.hero .content .hero-btn i {font-size: 40px;color: var(--secondary);}
+.hero .content .hero-btn .beam-content {display: grid;grid-template-columns: 90% 10%;background-color: var(--tnc);align-items: center;}
+.hero .content .hero-btn .beam-content .col {padding: 0.5rem 1rem;}
+.hero .content .hero-btn .beam-content .col-2 {text-align: right;}
+.hero .content .hero-btn .beam-content p {font-size: 12px;text-align: left;}
+.hero .content .hero-btn .beam-content .col img {width: 100%;}
+
+
+.marquee {position: relative;width: 100vw;max-width: 100%;height: 200px;overflow-x: hidden;background-color: var(--beam);height: 54px;}
+.marquee .track {position: absolute;white-space: nowrap;will-change: transform;animation: marquee 15s linear infinite alternate;padding: 0.7rem 0 0 0;}
+.marquee .track .content {display: unset; flex-direction: unset; justify-content: unset; max-width: none; padding: 0;}
+.marquee .track .optimized-wrapper {display: inline-flex; margin-right: 50px;}
+.marquee .track img {height: 32px;}
+  
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-10%); }
+}
+
+.howtoplay .content {max-width: 1500px;}
+.howtoplay .content h2 {font-weight: 900; font-size: 48px;margin-top: 50px;margin-bottom: 30px;}
+.howtoplay .content button {background-color: var(--button);border: none;border-radius: 4px;width: 162px;height: 58px;margin: 0 auto;font-weight: 700;font-size: 24px;color: var(--secondary);}
+.howtoplay .howtoplay-steps {display: grid;grid-template-columns: 33.33% 33.33% 33.33%;text-align: left;margin-top: 20px;margin-bottom: 40px;}
+.howtoplay .howtoplay-steps .col {display: flex;margin: 0 auto;border: 1px solid var(--border);padding: 0 1rem;align-items: center;width: 413px;justify-content: center;column-gap: 15px;}
+.howtoplay .howtoplay-steps .col p:first-child {font-size: 24px;}
+.howtoplay .howtoplay-steps .col p:nth-child(2) {font-size: 20px;}
+.howtoplay .howtoplay-steps .col h3 {font-size: 128px;color: var(--black);}
+
+.divider .content {max-width: 1890px;}
+
+.featured .content {max-width: 1890px;}
+.featured .content h2 {font-weight: 900; font-size: 48px;margin-top: 20px;}
+.featured .content h3 {font-size: 36px;margin: 30px 0 10px 0; font-weight: 400;}
+
+.slick-container {margin-top: 30px;}
+.slick-container .slick-t {position: relative; overflow: hidden;}
+.slick-container .slick-t img {width: 100%;}
+.slick-container .slick-t .slick-prev {left: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
+.slick-container .slick-t .slick-next {right: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
+
+.genting-live .content {max-width: 1890px;}
+.genting-live .content h3 {font-size: 36px;margin: 30px 0 5px 0; font-weight: 400;}
+
+.genting-live .content-two {max-width: 1600px; margin: 0 auto; margin-top: 30px;}
+.genting-live .genting-container {display: grid;grid-template-columns: 20% 20% 20% 20% 20%; column-gap: 10px;}
+.genting-live .genting-container .col img {width: 100%;}
+
+
+.most-played-games .content {max-width: 1890px;}
+.most-played-games .content h3 {font-size: 36px;margin: 30px 0 10px 0; font-weight: 400;}
+
+.genting-casino .content {max-width: 1600px;}
+.genting-casino .content h2 {font-weight: 900; font-size: 48px;margin-top: 50px;margin-bottom: 60px;}
+.genting-casino .genting-container {display: grid;grid-template-columns: 25% 25% 25% 25%;margin-bottom: 60px;}
+.genting-casino .genting-container p {font-size: 32px;padding: 0 3rem; margin-top: 30px;}
+.genting-casino .content button {background-color: var(--button);border: none;border-radius: 4px;width: 162px;height: 58px;margin: 0 auto;font-weight: 700;font-size: 24px;color: var(--secondary);}
+
+.footer {margin-top: 30px;}
+.footer .content {max-width: 2000px;}
+.footer p {font-size: 12px; line-height: 20px;}
+.footer a {color: var(--button);}
