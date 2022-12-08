@@ -22,6 +22,11 @@
     .genting-casino .genting-container p {padding: 0 2rem;}
 }/****1024px****/
 
+@media screen and (max-width:1024px) and (orientation: landscape) {
+    .howtoplay .howtoplay-steps .col {width: 50%;}
+    .genting-casino .genting-container {grid-template-columns: 1fr 1fr;}
+}/****1024px****/
+
 @media screen and (max-width:940px) {
     .hide-mobile {display: none !important;}
     .hide-desktop {display: block;}
@@ -92,15 +97,17 @@
     .hero {background: url('../img/mobile/banner-m.jpg') center top/cover no-repeat;}
     .hero .offer-text h2 {font-size: 40px;}
     .hero .offer-text h1 {font-size: 45px;}
-    /* .howtoplay .howtoplay-steps .col {width: 50%;} */
+    .howtoplay .howtoplay-steps .col {width: 50%;}
     .genting-live .content-two {margin-top: 0;}
-    /* .genting-casino .genting-container {grid-template-columns: 1fr 1fr;} */
+    .genting-casino .genting-container {grid-template-columns: 1fr 1fr;}
     .genting-casino .genting-container img {width: auto;}
     .genting-casino .genting-container p {font-size: 22px;}
 }/****768px****/
 
 @media screen and (max-width:414px) {
     .hero .offer-text {bottom: 25%;}
+    .howtoplay .howtoplay-steps .col {width: 100%;}
+    .genting-casino .genting-container {grid-template-columns: 1fr;}
 }/****414px****/
 
 @media screen and (max-width:390px) {
